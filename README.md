@@ -47,8 +47,8 @@ quien lee el código sabe qué funciones son propias y cuáles vienen de otra li
 - `pandas` y `numpy` para la mayoría de las funciones.
 - `mysql-connector-python` solo para las funciones de base de datos.
 
-`check_libraries()` verifica además matplotlib, seaborn, tabulate, scipy, scikit-learn
-y las librerías de Jupyter, que se usan a lo largo del manual.
+`check_libraries()` verifica además matplotlib, seaborn, tabulate, scipy, scikit-learn,
+SQLAlchemy y las librerías de Jupyter, que se usan a lo largo del manual.
 
 ## Licencia
 

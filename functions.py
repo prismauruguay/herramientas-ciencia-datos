@@ -173,6 +173,7 @@ def check_libraries(auto_install=False):
         ("tabulate", "tabulate"),
         ("scipy", "scipy"),
         ("sklearn", "scikit-learn"),
+        ("sqlalchemy", "sqlalchemy"),
         ("jupyter_client", "jupyter_client"),
         ("jupyter_core", "jupyter_core"),
         ("ipykernel", "ipykernel"),
