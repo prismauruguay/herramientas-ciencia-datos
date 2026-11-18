@@ -50,6 +50,13 @@ La carpeta [`datos/`](datos) tiene los archivos que usan los ejemplos del manual
 | `alumnos.txt` | Dos alumnos de ejemplo, separados por comas. |
 | `temperaturas.csv` | Temperaturas y precipitaciones anuales de ejemplo para 15 ciudades de Uruguay, 2015–2024. |
 | `notas_2021.xlsx`, `notas_2022.xlsx`, `notas_2023.xlsx` | Notas de 100 estudiantes ficticios por año. |
+| `archivo.csv`, `archivo_delimitado.txt`, `archivo_latin1.csv` | Doce personas ficticias, en CSV con coma, con punto y coma, y codificado en Latin-1. |
+| `archivo.xlsx` | Excel con dos hojas (`Hoja1` y `Hoja2`). |
+| `archivo_grande.csv`, `archivo_grande.xlsx` | 2500 filas, para leer por bloques. |
+| `archivo.json`, `archivo.jsonl` | Tres registros en JSON y en JSON Lines. |
+| `datos_clientes.csv` | CSV con un error de origen a propósito (falta una coma en la tercera línea). |
+
+Los archivos genéricos se crean con [`generar_archivos_ejemplo.py`](datos/generar_archivos_ejemplo.py).
 
 Son datos de ejemplo, pensados para practicar. El manual explica cómo descargarlos a una
 carpeta `data/` junto al cuaderno.

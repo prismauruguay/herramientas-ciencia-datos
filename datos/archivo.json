@@ -1,0 +1,17 @@
+[
+    {
+        "Nombre": "Juan",
+        "Edad": 25,
+        "Precio": 120.5
+    },
+    {
+        "Nombre": "Ana",
+        "Edad": 30,
+        "Precio": 89.9
+    },
+    {
+        "Nombre": "Pedro",
+        "Edad": 35,
+        "Precio": 150.0
+    }
+]

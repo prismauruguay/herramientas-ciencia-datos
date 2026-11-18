@@ -1,0 +1,13 @@
+ID;Nombre;Edad;Ciudad
+1;Juan;25;Montevideo
+2;Ana;30;Salto
+3;Pedro;35;Paysandú
+4;María;28;Rivera
+5;José;42;Maldonado
+6;Lucía;23;Colonia
+7;Martín;37;Tacuarembó
+8;Sofía;31;Durazno
+9;Diego;45;Florida
+10;Valentina;27;Rocha
+11;Andrés;33;Artigas
+12;Camila;29;Canelones
