@@ -1,0 +1,17 @@
+# Versiones con las que se ejecutó todo el código del
+# Manual de Ciencia de Datos con sentido (v1.21), con Python 3.13.
+# Instalación, con el entorno virtual activo:
+#   pip install -r requirements.txt
+pandas==3.0.6
+numpy==2.5.4
+matplotlib==3.11.2
+seaborn==0.13.2
+scipy==1.18.1
+scikit-learn==1.9.1
+skrub==0.11.0
+openpyxl==3.1.5
+tabulate==0.10.0
+chardet==7.7.0
+SQLAlchemy==2.1.9
+mysql-connector-python==26.10.0
+ipykernel==7.4.0

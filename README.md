@@ -41,6 +41,19 @@ quien lee el código sabe qué funciones son propias y cuáles vienen de otra li
 | `correr_consulta(conexion, consulta, parametros=())` | Ejecuta una consulta SQL; los valores se pasan en `parametros` con `%s`. |
 | `crear_dataframe(conexion, consulta, parametros=())` | Ejecuta una consulta SQL y devuelve el resultado como DataFrame. |
 
+## Versiones usadas en el manual
+
+[`requirements.txt`](requirements.txt) fija las versiones de las librerías con las que se
+ejecutó todo el código del manual (Python 3.13). Para obtener exactamente las mismas
+salidas, instálalas con el entorno virtual activo:
+
+```bash
+pip install -r requirements.txt
+```
+
+El ejemplo de `fg-data-profiling` (antes `ydata-profiling`) no está incluido: todavía no es
+compatible con pandas 3 y se instala en un entorno aparte, como explica el manual.
+
 ## Datos de los ejemplos
 
 La carpeta [`datos/`](datos) tiene los archivos que usan los ejemplos del manual:
