@@ -41,6 +41,19 @@ quien lee el código sabe qué funciones son propias y cuáles vienen de otra li
 | `correr_consulta(conexion, consulta, parametros=())` | Ejecuta una consulta SQL; los valores se pasan en `parametros` con `%s`. |
 | `crear_dataframe(conexion, consulta, parametros=())` | Ejecuta una consulta SQL y devuelve el resultado como DataFrame. |
 
+## Datos de los ejemplos
+
+La carpeta [`datos/`](datos) tiene los archivos que usan los ejemplos del manual:
+
+| Archivo | Contenido |
+|---|---|
+| `alumnos.txt` | Dos alumnos de ejemplo, separados por comas. |
+| `temperaturas.csv` | Temperaturas y precipitaciones anuales de ejemplo para 15 ciudades de Uruguay, 2015–2024. |
+| `notas_2021.xlsx`, `notas_2022.xlsx`, `notas_2023.xlsx` | Notas de 100 estudiantes ficticios por año. |
+
+Son datos de ejemplo, pensados para practicar. El manual explica cómo descargarlos a una
+carpeta `data/` junto al cuaderno.
+
 ## Requisitos
 
 - Python 3 (probado con Python 3.13).

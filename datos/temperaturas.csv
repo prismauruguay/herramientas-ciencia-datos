@@ -1,0 +1,151 @@
+Ciudad,Año,Temperatura Máxima,Temperatura Mínima,Precipitaciones
+Montevideo,2015,30,14,110
+Montevideo,2016,31,15,100
+Montevideo,2017,30,20,120
+Montevideo,2018,32,15,120
+Montevideo,2019,35,18,100
+Montevideo,2020,36,20,80
+Montevideo,2021,37,22,90
+Montevideo,2022,36,19,100
+Montevideo,2023,38,14,110
+Montevideo,2024,39,15,120
+Punta del Este,2015,32,14,90
+Punta del Este,2016,33,15,80
+Punta del Este,2017,32,20,100
+Punta del Este,2018,35,20,100
+Punta del Este,2019,40,25,80
+Punta del Este,2020,38,22,60
+Punta del Este,2021,37,18,70
+Punta del Este,2022,39,14,90
+Punta del Este,2023,40,15,100
+Punta del Este,2024,41,16,110
+Colonia,2015,30,14,100
+Colonia,2016,31,15,90
+Colonia,2017,30,20,110
+Colonia,2018,32,15,90
+Colonia,2019,35,20,120
+Colonia,2020,36,18,70
+Colonia,2021,37,22,80
+Colonia,2022,36,19,90
+Colonia,2023,38,14,100
+Colonia,2024,39,15,110
+San José,2015,30,14,90
+San José,2016,31,15,80
+San José,2017,30,20,100
+San José,2018,32,15,100
+San José,2019,35,20,70
+San José,2020,36,18,60
+San José,2021,37,22,70
+San José,2022,36,19,80
+San José,2023,38,14,90
+San José,2024,39,15,100
+Artigas,2015,32,14,120
+Artigas,2016,33,15,110
+Artigas,2017,32,20,130
+Artigas,2018,35,20,100
+Artigas,2019,40,25,80
+Artigas,2020,38,22,60
+Artigas,2021,37,18,70
+Artigas,2022,39,14,80
+Artigas,2023,40,15,90
+Artigas,2024,41,16,100
+Tacuarembó,2015,30,14,100
+Tacuarembó,2016,31,15,90
+Tacuarembó,2017,30,20,110
+Tacuarembó,2018,30,15,90
+Tacuarembó,2019,35,20,70
+Tacuarembó,2020,37,18,95
+Tacuarembó,2021,38,22,100
+Tacuarembó,2022,36,19,110
+Tacuarembó,2023,38,14,120
+Tacuarembó,2024,39,15,130
+Rocha,2015,30,14,90
+Rocha,2016,31,15,80
+Rocha,2017,30,20,100
+Rocha,2018,32,15,130
+Rocha,2019,35,20,80
+Rocha,2020,36,18,90
+Rocha,2021,37,22,100
+Rocha,2022,36,19,110
+Rocha,2023,38,14,120
+Rocha,2024,39,15,130
+Rivera,2015,32,14,100
+Rivera,2016,33,15,90
+Rivera,2017,32,20,110
+Rivera,2018,35,20,120
+Rivera,2019,40,25,100
+Rivera,2020,38,22,130
+Rivera,2021,37,18,140
+Rivera,2022,39,14,150
+Rivera,2023,40,15,160
+Rivera,2024,41,16,170
+Maldonado,2015,32,14,100
+Maldonado,2016,33,15,90
+Maldonado,2017,32,20,110
+Maldonado,2018,35,15,100
+Maldonado,2019,40,20,70
+Maldonado,2020,38,18,90
+Maldonado,2021,37,22,100
+Maldonado,2022,39,19,110
+Maldonado,2023,40,14,120
+Maldonado,2024,41,15,130
+Salto,2015,30,14,90
+Salto,2016,33,11,90
+Salto,2017,33,20,100
+Salto,2018,36,15,70
+Salto,2019,37,20,90
+Salto,2020,37,18,110
+Salto,2021,38,22,120
+Salto,2022,39,19,130
+Salto,2023,40,14,140
+Salto,2024,41,15,150
+Durazno,2015,30,14,100
+Durazno,2016,31,15,90
+Durazno,2017,34,20,110
+Durazno,2018,35,20,115
+Durazno,2019,40,25,120
+Durazno,2020,38,22,80
+Durazno,2021,37,18,90
+Durazno,2022,39,14,100
+Durazno,2023,40,15,110
+Durazno,2024,41,16,120
+Treinta y Tres,2015,30,12,90
+Treinta y Tres,2016,31,15,95
+Treinta y Tres,2017,32,20,110
+Treinta y Tres,2018,34,15,100
+Treinta y Tres,2019,35,20,90
+Treinta y Tres,2020,36,18,80
+Treinta y Tres,2021,37,22,70
+Treinta y Tres,2022,38,19,60
+Treinta y Tres,2023,39,14,70
+Treinta y Tres,2024,40,15,80
+Florida,2015,30,14,100
+Florida,2016,31,15,115
+Florida,2017,32,20,120
+Florida,2018,32,15,110
+Florida,2019,35,20,90
+Florida,2020,36,18,100
+Florida,2021,37,22,110
+Florida,2022,38,19,120
+Florida,2023,39,14,130
+Florida,2024,40,15,140
+Lavalleja,2015,31,14,90
+Lavalleja,2016,32,15,80
+Lavalleja,2017,32,20,100
+Lavalleja,2018,35,20,90
+Lavalleja,2019,40,25,70
+Lavalleja,2020,38,22,80
+Lavalleja,2021,37,18,90
+Lavalleja,2022,39,14,100
+Lavalleja,2023,40,15,110
+Lavalleja,2024,41,16,120
+Canelones,2015,30,14,100
+Canelones,2016,31,15,90
+Canelones,2017,33,17,110
+Canelones,2018,32,15,70
+Canelones,2019,35,20,70
+Canelones,2020,34,18,90
+Canelones,2021,37,22,100
+Canelones,2022,36,19,110
+Canelones,2023,38,14,120
+Canelones,2024,39,15,130
