@@ -154,6 +154,44 @@ def bins_rice(muestra):
     return bins, 'Regla de Rice'
 
 
+# Funciones para gráficos y para presentar resultados
+
+def aplicar_estilo():
+    # Estilo común para todos los gráficos de matplotlib: sin bordes superior
+    # y derecho, con una cuadrícula suave detrás de los datos y el título en
+    # negrita. Se importa aquí para que el módulo funcione sin matplotlib.
+    import matplotlib.pyplot as plt
+
+    plt.rcParams.update({
+        'axes.spines.top': False,
+        'axes.spines.right': False,
+        'axes.grid': True,
+        'grid.color': '#e1e0d9',
+        'axes.axisbelow': True,
+        'axes.titleweight': 'bold',
+    })
+
+
+def formato_es(numero):
+    # Número sin decimales y con punto de miles, como se escribe en español:
+    # 1430810 -> '1.430.810'. El formato ',.0f' escribe el número sin
+    # decimales y con coma de miles ('1,430,810'); después se cambia la coma
+    # por el punto.
+    return f'{numero:,.0f}'.replace(',', '.')
+
+
+def correlaciones(datos, columna_1, columna_2, decimales=2):
+    # Coeficientes de Pearson y de Spearman entre dos columnas, y cantidad de
+    # filas que tienen los dos valores (corr() usa solo esas filas).
+    # Spearman necesita la librería scipy instalada.
+    valores_1 = datos[columna_1]
+    valores_2 = datos[columna_2]
+    pearson = valores_1.corr(valores_2, method='pearson')
+    spearman = valores_1.corr(valores_2, method='spearman')
+    filas = (valores_1.notna() & valores_2.notna()).sum()
+    return round(pearson, decimales), round(spearman, decimales), filas
+
+
 def resumen_general(df):
     print("\n- Dimensión del DataFrame:", df.shape)
     print("\n- Tipos de datos:\n", df.dtypes)

@@ -13,10 +13,13 @@ Prisma Uruguay, pero se puede usar en cualquier proyecto.
    el kernel:
 
    ```python
-   %load_ext autoreload
+   %reload_ext autoreload
    %autoreload 2
    import functions as fn
    ```
+
+   Se usa `%reload_ext` y no `%load_ext` para poder volver a ejecutar la celda sin el
+   aviso «The autoreload extension is already loaded».
 
 3. Usa las funciones con el prefijo `fn.`:
 
@@ -37,6 +40,9 @@ quien lee el código sabe qué funciones son propias y cuáles vienen de otra li
 | `ver_niveles_categoricos(df, diccionario)` | Compara la cantidad de categorías esperada con la encontrada en cada columna. |
 | `detectar_outliers(serie, factor=1.5)` | Devuelve los valores atípicos según el método de Tukey (rango intercuartílico). |
 | `bins_sturges(muestra)`, `bins_freedman_diaconis(muestra)`, `bins_scott(muestra)`, `bins_rice(muestra)` | Calculan la cantidad de intervalos (bins) de un histograma según distintas reglas. |
+| `aplicar_estilo()` | Aplica un estilo común a todos los gráficos de matplotlib: sin bordes superior y derecho, cuadrícula suave detrás de los datos y título en negrita. |
+| `formato_es(numero)` | Escribe un número sin decimales y con punto de miles, como en español: `1430810` → `'1.430.810'`. Sirve como `fmt` de `bar_label()`. |
+| `correlaciones(datos, columna_1, columna_2, decimales=2)` | Devuelve los coeficientes de Pearson y de Spearman entre dos columnas, y cuántas filas tienen los dos valores. Spearman necesita scipy. |
 | `conectar_a_base_de_datos(user, password, host_ip, database)` | Abre una conexión a MySQL. |
 | `correr_consulta(conexion, consulta, parametros=())` | Ejecuta una consulta SQL; los valores se pasan en `parametros` con `%s`. |
 | `crear_dataframe(conexion, consulta, parametros=())` | Ejecuta una consulta SQL y devuelve el resultado como DataFrame. |
@@ -78,6 +84,7 @@ carpeta `data/` junto al cuaderno.
 
 - Python 3 (probado con Python 3.13).
 - `pandas` y `numpy` para la mayoría de las funciones.
+- `matplotlib` para `aplicar_estilo()`, y `scipy` para el coeficiente de Spearman de `correlaciones()`.
 - `mysql-connector-python` solo para las funciones de base de datos.
 
 `check_libraries()` verifica además matplotlib, seaborn, tabulate, scipy, scikit-learn,
