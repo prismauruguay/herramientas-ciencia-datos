@@ -47,14 +47,11 @@ quien lee el código sabe qué funciones son propias y cuáles vienen de otra li
 | `correr_consulta(conexion, consulta, parametros=())` | Ejecuta una consulta SQL; los valores se pasan en `parametros` con `%s`. |
 | `crear_dataframe(conexion, consulta, parametros=())` | Ejecuta una consulta SQL y devuelve el resultado como DataFrame. |
 
-## Versión documentada
+## Documentación de cada función
 
-[`functions_documentado.py`](functions_documentado.py) tiene el mismo código que
-`functions.py`, y además cada función con su docstring: el texto entre triple comilla que
-explica qué hace, qué recibe y qué devuelve. Sirve para leer cómo funciona cada una. El
-manual descarga y usa `functions.py`; si prefieres la versión documentada, guárdala como
-`functions.py`, porque se comportan igual. Desde un cuaderno, el docstring se lee con
-`help()`, por ejemplo `help(fn.detectar_outliers)`.
+Cada función de `functions.py` tiene su docstring: el texto entre triple comilla que
+explica qué hace, qué recibe y qué devuelve. Desde un cuaderno se lee con `help()`, por
+ejemplo `help(fn.detectar_outliers)`.
 
 ## Versiones usadas en el manual
 
